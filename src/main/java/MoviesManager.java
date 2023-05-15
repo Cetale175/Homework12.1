@@ -6,9 +6,6 @@ public class MoviesManager {
         this.limit =10;
     }
 
-    public MoviesManager(int limit){
-        this.limit = limit;
-    }
 
     public void add(String movie) {
         String[] tmp = new String[movies.length +1];
